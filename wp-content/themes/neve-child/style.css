@@ -11,3 +11,16 @@ Updated: 2024-02-19 13:22:22
 
 */
 
+.site__header__menu {
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;         
+    padding: 10px 20px;          
+    background-color: #fff
+}
+
+.logo {
+    width: 1440px;
+    height: 80px;
+    flex-shrink: 0;
+}
