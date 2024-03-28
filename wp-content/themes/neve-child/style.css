@@ -10,17 +10,70 @@ Version: 3.8.1.1708348942
 Updated: 2024-02-19 13:22:22
 
 */
+.header {
+    display: flex;
+    height: 80px;
+    background-color: #fff;
+    align-items: center;
+    justify-content: space-between;  
+}
 
 .site__header__menu {
-    display: flex;
-    justify-content: space-between; 
-    align-items: center;         
-    padding: 10px 20px;          
-    background-color: #fff
+    display: flex; 
+    align-items: center;
+           
 }
 
+
+
 .logo {
-    width: 1440px;
-    height: 80px;
-    flex-shrink: 0;
+    width: 201px;
+    height: 19px;
+    margin-left: 25px;
 }
+
+.menu-item a {
+    color: black;
+   
+}
+
+.menu-item-51 {
+    margin-right: 60px;
+}
+
+.menu-item-admin{
+    margin-right: 60px;
+}
+
+.menu-item-50 {
+    display: flex;
+    background-color: #DC9F96; 
+    width: 236px;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    order: 3;
+  }
+
+  .menu-item-50:hover {
+    background-color: #C02E44;
+  }
+
+  .menu-item-50 a {
+    color: white;
+  }
+
+  .wpcf7-form-control.wpcf7-submit {
+    background-color: #E0B9B4;
+    color: white;
+    
+  }§
+
+  .wpcf7-form-control.wpcf7-submit:hover {
+    background-color: #C02E44;
+  } 
+
+  .envoyer {
+    text-align: center;
+  }

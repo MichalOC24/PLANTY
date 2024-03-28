@@ -9,9 +9,10 @@
 
 <body <?php body_class(); ?>>
 <?php wp_body_open(); ?>
+
 <header class="header">
     <a href="<?php echo home_url( '/' ); ?>">
-      <img src="<?php echo get_template_directory_uri(); ?>/img/Logo Planty.png" alt="Logo">
+      <img class=logo src="<?php echo get_template_directory_uri(); ?>/img/Logo Planty.png" alt="Logo">
     </a> 
 	
 	<?php 
@@ -20,6 +21,7 @@
             'theme_location' => 'main', 
             'container' => 'ul', // afin d'éviter d'avoir une div autour 
             'menu_class' => 'site__header__menu', // ma classe personnalisée 
+            
         ) 
     ); 
 ?> 

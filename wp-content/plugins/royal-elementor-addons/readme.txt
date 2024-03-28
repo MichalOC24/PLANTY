@@ -1,7 +1,7 @@
 === Royal Elementor Addons and Templates ===
 Contributors: WP Royal, rubeushagrid13, cyberpinky, elementoraddonswpr, ggedenidze1982, wprduke
 Tags: elementor, elementor templates, elementor addons, widgets for elementor, elementor widgets, elementor mega menu, elementor woocommerce builder, theme builder, header footer builder, elementor post grid, elementor product grid, addons for elementor
-Stable tag: 1.3.93
+Stable tag: 1.3.95
 Requires at least: 5.0
 Tested up to: 6.4.3
 Requires PHP: 5.6
@@ -14,7 +14,7 @@ Elementor Post Grid, Portfolio, Woocommerce Grid builder Widgets. Slider, Carous
 
 **Royal Elementor addons** is the most versatile, intuitive, and easy to use [Popular Page Builder](https://wordpress.org/plugins/elementor/) extension. Our goal is to provide you with the tools to make things happen, efficiently, and fast compare to other elementor addons. Choosing us is not only a mindset, but it is also a requirement if you intend to gain an edge over your competitors when creating your website. The best part is that you can design anything **without having to touch a single line of code**.
 
-Comes with **90+ Elementor addons, 70+ Elementor Templates KIT (Growing Each Week), Theme Builder, WooCommerce Builder, Elementor Mega Menu Builder, Popup Builder, Premade Widget Blocks & Extensions.** Creative and self-intuitive widgets to take your WordPress website to the next level. **All widgets are Free** and the Pro Version offers even more advanced functionality.
+Comes with **90+ Elementor addons, 90+ Elementor Templates KIT (Growing Each Week), Theme Builder, WooCommerce Builder, Elementor Mega Menu Builder, Popup Builder, Premade Widget Blocks & Extensions.** Creative and self-intuitive widgets to take your WordPress website to the next level. **All widgets are Free** and the Pro Version offers even more advanced functionality.
 
 *Free and Pro functionalities are mixed in the Widget Demos below.*
 
@@ -155,6 +155,7 @@ and other custom branding related settings)
 - [**Magazine Blog v2**](https://demosites.royal-elementor-addons.com/magazine-blog-v2/?ref=rea-wpo-pp-details-tab)
 - [**Magazine Blog v3**](https://demosites.royal-elementor-addons.com/magazine-blog-v3/?ref=rea-wpo-pp-details-tab)
 - [**Magazine Blog V4**](https://demosites.royal-elementor-addons.com/magazine-blog-v4/?ref=rea-wpo-pp-details-tab)
+- [**Magazine Blog V6**](https://demosites.royal-elementor-addons.com/magazine-blog-v6/?ref=rea-wpo-pp-details-tab)
 - [**Food Blog**](https://demosites.royal-elementor-addons.com/food-blog-v1/?ref=rea-wpo-pp-details-tab)
 - [**Travel Blog**](https://demosites.royal-elementor-addons.com/travel-blog-v1/?ref=rea-wpo-pp-details-tab)
 - [**View All Demos**](https://demosites.royal-elementor-addons.com/elementor-templates/?ref=rea-wpo-pp-details-tab)
@@ -169,7 +170,6 @@ and other custom branding related settings)
 - [**Construction v1**](https://demosites.royal-elementor-addons.com/construction-v1/?ref=rea-wpo-pp-details-tab)
 - [**Construction v2**](https://demosites.royal-elementor-addons.com/construction-v2/?ref=rea-wpo-pp-details-tab)
 - [**Construction v3**](https://demosites.royal-elementor-addons.com/construction-v3/?ref=rea-wpo-pp-details-tab)
-- [**Children School v1**](https://demosites.royal-elementor-addons.com/school-v1/?ref=rea-wpo-pp-details-tab)
 - [**Architecture**](https://demosites.royal-elementor-addons.com/architecture-v1/?ref=rea-wpo-pp-details-tab)
 - [**It Technology 2**](https://demosites.royal-elementor-addons.com/ittech-v2/?ref=rea-wpo-pp-details-tab)
 - [**Drone**](https://demosites.royal-elementor-addons.com/drone-v1/?ref=rea-wpo-pp-details-tab)
@@ -193,6 +193,7 @@ and other custom branding related settings)
 - [**NFT**](https://demosites.royal-elementor-addons.com/nft-portfolio-v1/?ref=rea-wpo-pp-details-tab)
 - [**Car Wash**](https://demosites.royal-elementor-addons.com/carwash-v1/?ref=rea-wpo-pp-details-tab)
 - [**Pet Care**](https://demosites.royal-elementor-addons.com/pet-care-v1/?ref=rea-wpo-pp-details-tab)
+- [**Pet Shop**](https://demosites.royal-elementor-addons.com/pet-shop-v1/?ref=rea-wpo-pp-details-tab)
 - [**Digital Marketing Agency**](https://demosites.royal-elementor-addons.com/digital-marketing-agency-v1/?ref=rea-wpo-pp-details-tab)
 - [**One Page Digital Marketing Agency v1**](https://demosites.royal-elementor-addons.com/one-page-v1/?ref=rea-wpo-pp-details-tab)
 - [**One Page Digital Marketing Agency v2**](https://demosites.royal-elementor-addons.com/one-page-v2/?ref=rea-wpo-pp-details-tab)
@@ -448,8 +449,14 @@ memory_limit 256M or more
 post_max_size 64M
 
 == Changelog ==
-= Royal Elementor Addons v1.3.93 - 2024-02-24 =
-* ADDED: Children School Template Kit [**School V1**](https://demosites.royal-elementor-addons.com/school-v1/?ref=rea-wpo-pp-details-tab).
+= Royal Elementor Addons v1.3.95 - 2024-03-22 =
+* FIXED: Minor Bugs.
+
+= Royal Elementor Addons v1.3.94 - 2024-03-21 =
+* ADDED: Magazine Blog V6 Kit - [**Magazine Blog V6**](https://demosites.royal-elementor-addons.com/magazine-blog-v6/?ref=rea-wpo-pp-details-tab).
+
+= Royal Elementor Addons v1.3.93 - 2024-03-13 =
+* ADDED: Pet Shop Template Kit [**Pet Shop V1**](https://demosites.royal-elementor-addons.com/pet-shop-v1/?ref=rea-wpo-pp-details-tab).
 
 = Royal Elementor Addons v1.3.92 - 2024-02-20 =
 * FIXED: Minor Bugs.
