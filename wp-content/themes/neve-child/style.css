@@ -77,3 +77,12 @@ Updated: 2024-02-19 13:22:22
   .envoyer {
     text-align: center;
   }
+
+  .menu-item-55 {
+    display: flex;
+    justify-content: center;
+    width: 1440px;
+    height: 60px;
+    padding: 20px 0px 21px 0px;
+    align-items: center;;
+  }
