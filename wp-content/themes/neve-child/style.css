@@ -86,3 +86,68 @@ Updated: 2024-02-19 13:22:22
     padding: 20px 0px 21px 0px;
     align-items: center;;
   }
+
+.commander-formulaires {
+  
+  }
+
+  .numbers {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    border-bottom: 1px solid #ffffff;
+  }
+
+  .wpcf7-form-control-wrap.number-380 {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .wpcf7-form-control-wrap.number-381 {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .wpcf7-form-control-wrap.number-382 {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .wpcf7-form-control-wrap.number-383 {
+    display: flex;
+    flex-direction: row;
+  }
+
+  
+
+
+  .informations-livraisons {
+    display:flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+   
+   
+  }
+  .formulaire-gauche {
+    display: flex;
+    flex-direction: column;
+   
+  }
+
+  .ligne-separation {
+    height: 100%;
+    border-left: 1px solid #ffffff;
+    margin: 0;
+}
+
+  .formulaire-droit {
+    display:flex;
+    flex-direction: column;
+   
+  
+  }
+
+  .submit {
+    display: flex;
+    justify-content: center;
+  }
