@@ -32,8 +32,8 @@ register_nav_menus( array(
 
 add_filter( 'wp_nav_menu_items', 'add_admin_to_nav_menu', 10, 2 );
 function add_admin_to_nav_menu( $items, $args ) {
-	if (is_user_logged_in() && $args->theme_location === 'main') {
-		$items .= '<li class="menu-item menu-item-admin"><a href="'. get_admin_url() .'">Admin</a></li>';
-	}
-	return $items;
+    if (is_user_logged_in() && $args->theme_location === 'main') {
+        $items .= '<li class="menu-item menu-item-admin"><a href="'. get_admin_url() .'">Admin</a></li>';
+    }
+    return $items;
 }

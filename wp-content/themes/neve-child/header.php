@@ -14,13 +14,14 @@
     <a href="<?php echo home_url( '/' ); ?>">
       <img class=logo src="<?php echo get_template_directory_uri(); ?>/img/Logo Planty.png" alt="Logo">
     </a> 
+
 	
 	<?php 
 	wp_nav_menu( 
         array( 
             'theme_location' => 'main', 
-            'container' => 'ul', // afin d'éviter d'avoir une div autour 
-            'menu_class' => 'site__header__menu', // ma classe personnalisée 
+            'container' => 'ul', 
+            'menu_class' => 'site__header__menu', 
             
         ) 
     ); 

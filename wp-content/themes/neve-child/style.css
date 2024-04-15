@@ -24,17 +24,14 @@ Updated: 2024-02-19 13:22:22
            
 }
 
-
-
 .logo {
     width: 201px;
     height: 19px;
-    margin-left: 37px;
+    margin-left: 25px;
 }
 
 .menu-item a {
     color: black;
-   
 }
 
 .menu-item-51 {
@@ -53,6 +50,9 @@ Updated: 2024-02-19 13:22:22
     display: flex;
     align-items: center;
     justify-content: center;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
     order: 3;
   }
 
@@ -64,11 +64,13 @@ Updated: 2024-02-19 13:22:22
     color: white;
   }
 
+  
+
   .wpcf7-form-control.wpcf7-submit {
     background-color: #E0B9B4;
     color: white;
     
-  }§
+  }
 
   .wpcf7-form-control.wpcf7-submit:hover {
     background-color: #C02E44;
@@ -84,10 +86,8 @@ Updated: 2024-02-19 13:22:22
     width: 1440px;
     height: 60px;
     padding: 20px 0px 21px 0px;
-    align-items: center;;
+    align-items: center;
   }
-
-
 
   .numbers {
     display: flex;
@@ -141,11 +141,64 @@ Updated: 2024-02-19 13:22:22
   .formulaire-droit {
     display:flex;
     flex-direction: column;
-   
-  
   }
 
   .submit {
     display: flex;
     justify-content: center;
+  }
+
+  .site__footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 16px;
+    font-weight: 400;
+  }
+
+  @media screen and (max-width: 767px) {
+  .header {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .logo {
+    width: 90px;
+    height: 8px;
+    margin-left: 5px;
+    margin-right: 5px;
+
+  }
+
+  .menu-item-50 {
+    display: flex;
+    background-color: #DC9F96; 
+    width: 125px;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    order: 3;
+  }
+
+  .menu-item-51 {
+   padding-left: 15px;
+   margin-right: 5px;
+   font-size: 12px;
+}
+.site__header__menu {
+  display:flex; 
+  flex-direction: row;
+  align-items: center;
+
+}
+.menu-item-admin {
+  margin-right: 15px;
+  margin-left: 15px;
+  font-size: 12px;
+  
+}
   }
