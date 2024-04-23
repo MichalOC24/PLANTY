@@ -21,6 +21,7 @@ Updated: 2024-02-19 13:22:22
 .site__header__menu {
     display: flex; 
     align-items: center;
+    justify-content: space-evenly;
            
 }
 
@@ -64,20 +65,36 @@ Updated: 2024-02-19 13:22:22
     color: white;
   }
 
-  
-
   .wpcf7-form-control.wpcf7-submit {
     background-color: #E0B9B4;
     color: white;
-    
+    text-align: center;
+    font-family: Syne;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 37px;
+    display: flex;
+    width: 198px;
+    height: 55px;
+    padding: 9px 57px 9px 56px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10%;
+   
   }
 
   .wpcf7-form-control.wpcf7-submit:hover {
     background-color: #C02E44;
   } 
 
-  .envoyer {
-    text-align: center;
+  .envoyer {  
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    text-align: justify;
+    margin-left: 15%;
+   
   }
 
   .menu-item-55 {
@@ -87,13 +104,17 @@ Updated: 2024-02-19 13:22:22
     height: 60px;
     padding: 20px 0px 21px 0px;
     align-items: center;
+   
   }
 
   .numbers {
     display: flex;
     flex-direction: row;
-    justify-content: space-evenly;
+    justify-content: space-around;
     border-bottom: 1px solid #ffffff;
+    margin-bottom: 5%;
+    margin-left: 5%;
+    margin-right: 5%;
   }
 
   .wpcf7-form-control-wrap.number-380 {
@@ -116,19 +137,20 @@ Updated: 2024-02-19 13:22:22
     flex-direction: row;
   }
 
-  
-
 
   .informations-livraisons {
     display:flex;
     flex-direction: row;
     justify-content: space-evenly;
+    color: #ffffff;
+  
    
    
   }
   .formulaire-gauche {
     display: flex;
     flex-direction: column;
+    padding-right: 10%;
    
   }
 
@@ -141,10 +163,12 @@ Updated: 2024-02-19 13:22:22
   .formulaire-droit {
     display:flex;
     flex-direction: column;
+    padding-left: 10%;
   }
 
   .submit {
     display: flex;
+    flex-direction: row;
     justify-content: center;
   }
 
@@ -163,32 +187,32 @@ Updated: 2024-02-19 13:22:22
   }
 
   .logo {
-    width: 90px;
-    height: 8px;
-    margin-left: 5px;
-    margin-right: 5px;
+    width: 201px;
+    height: 19px;
+    margin-left: 15px;
+    margin-right: 15px;
 
   }
 
   .menu-item-50 {
     display: flex;
     background-color: #DC9F96; 
-    width: 125px;
+    width: 140px;
     height: 80px;
     display: flex;
     align-items: center;
     justify-content: center;
-    font-size: 12px;
+    font-size: 16px;
     font-style: normal;
-    font-weight: 400;
-    order: 3;
+    font-weight: 700;
   }
 
   .menu-item-51 {
-   padding-left: 15px;
-   margin-right: 5px;
-   font-size: 12px;
+   margin-right: 15px;
+   margin-left: 15px;
+   font-size: 16px;
 }
+
 .site__header__menu {
   display:flex; 
   flex-direction: row;
@@ -196,9 +220,38 @@ Updated: 2024-02-19 13:22:22
 
 }
 .menu-item-admin {
-  margin-right: 15px;
+  margin-right: 10px;
   margin-left: 15px;
-  font-size: 12px;
+  font-size: 16px;
   
 }
   }
+
+  @media screen and (max-width: 556px) {
+    .logo {
+      width: 170px;
+      height: 17px;
+      margin-left: 15px;
+      margin-right: 15px;
+  }
+}
+
+@media screen and (max-width: 525px) {
+  .logo {
+    width: 130px;
+    height: 13px;
+    margin-left: 10px;
+    margin-right: 15px;
+}
+}
+
+@media screen and (max-width: 480px) {
+
+.menu-item-51 {
+  margin-right: 0px;
+}
+
+.logo {
+display: none;
+}
+}
