@@ -21,14 +21,14 @@ Updated: 2024-02-19 13:22:22
 .site__header__menu {
     display: flex; 
     align-items: center;
-    justify-content: space-evenly;
-           
+    justify-content: space-evenly;        
 }
 
 .logo {
     width: 201px;
     height: 19px;
     margin-left: 25px;
+
 }
 
 .menu-item a {
@@ -41,6 +41,16 @@ Updated: 2024-02-19 13:22:22
 
 .menu-item-admin{
     margin-right: 60px;
+}
+
+.menu-item-admin:hover{
+  font-size: 13px;
+  font-weight: 700;
+}
+
+.menu-item-51:hover{
+  font-size: 13px;
+  font-weight: 700;
 }
 
 .menu-item-50 {
@@ -81,7 +91,6 @@ Updated: 2024-02-19 13:22:22
     justify-content: center;
     align-items: center;
     margin-top: 10%;
-   
   }
 
   .wpcf7-form-control.wpcf7-submit:hover {
@@ -94,7 +103,6 @@ Updated: 2024-02-19 13:22:22
     justify-content: center;
     text-align: justify;
     margin-left: 15%;
-   
   }
 
   .menu-item-55 {
@@ -104,7 +112,6 @@ Updated: 2024-02-19 13:22:22
     height: 60px;
     padding: 20px 0px 21px 0px;
     align-items: center;
-   
   }
 
   .numbers {
@@ -116,6 +123,8 @@ Updated: 2024-02-19 13:22:22
     margin-left: 5%;
     margin-right: 5%;
   }
+
+/* Les formulaires "Vos Informations" et "Livraison" */
 
   .wpcf7-form-control-wrap.number-380 {
     display: flex;
@@ -137,33 +146,36 @@ Updated: 2024-02-19 13:22:22
     flex-direction: row;
   }
 
-
   .informations-livraisons {
     display:flex;
     flex-direction: row;
-    justify-content: space-evenly;
-    color: #ffffff;
-  
-   
-   
+    justify-content: center;
+    color: #ffffff; 
   }
+
   .formulaire-gauche {
     display: flex;
     flex-direction: column;
-    padding-right: 10%;
-   
+    padding-right: 45px;
   }
 
   .ligne-separation {
     height: 100%;
     border-left: 1px solid #ffffff;
-    margin: 0;
+    justify-content: center;
+    margin: 0px;
 }
 
   .formulaire-droit {
     display:flex;
     flex-direction: column;
-    padding-left: 10%;
+    padding-left: 45px;
+  }
+
+  .wpcf7-text.wpcf7-form-control {
+    height: 70px;
+    border-radius: 7px;
+    border: none;
   }
 
   .submit {
@@ -180,6 +192,8 @@ Updated: 2024-02-19 13:22:22
     font-weight: 400;
   }
 
+/* La mise en page responsive*/ 
+
   @media screen and (max-width: 767px) {
   .header {
     display: flex;
@@ -191,7 +205,6 @@ Updated: 2024-02-19 13:22:22
     height: 19px;
     margin-left: 15px;
     margin-right: 15px;
-
   }
 
   .menu-item-50 {
@@ -222,10 +235,11 @@ Updated: 2024-02-19 13:22:22
 .menu-item-admin {
   margin-right: 10px;
   margin-left: 15px;
-  font-size: 16px;
-  
+  font-size: 16px; 
 }
-  }
+}
+
+/* La mise en page du logo en mode resposif */
 
   @media screen and (max-width: 556px) {
     .logo {
@@ -245,13 +259,91 @@ Updated: 2024-02-19 13:22:22
 }
 }
 
-@media screen and (max-width: 480px) {
+/* La mise en page pour les petits écrans */
 
-.menu-item-51 {
-  margin-right: 0px;
+@media screen and (max-width: 480px) {
+.header {
+  display: flex;
+  flex-direction: column;
+  height: 100px;
+  background-color: #fff;
+}
+
+.site__header__menu {
+  display: flex; 
+  flex-direction: column;     
+}
+
+.menu-item-50 {
+  display: flex;
+  background-color: #DC9F96; 
+  width: 120px;
+  height: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 600;
+}
+
+.menu-item a {
+  font-size: 16px;
 }
 
 .logo {
-display: none;
+  width: 130px;
+  height: 12px;
+  margin-left: 0px;
+  margin-right: 0px;
+  margin-top: 6px;
+  
 }
 }
+
+/* La mise en page pour les formulaires "Vos Informations" et "Livraisons" */
+
+@media screen and (max-width: 900px) {
+
+.formulaire-droit {
+ padding-left: 0%;
+}
+
+.informations-livraisons {
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  color: #ffffff;
+}
+
+.ligne-separation {
+  height: 100%;
+  border-bottom: 1px solid #ffffff;
+  width: 360px;
+  margin-bottom: 20px;
+ 
+}
+
+.numbers {
+  justify-content: space-between;
+  margin-left: -150px;
+  margin-right: -150px;
+}
+
+.elementor-heading-title {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+}
+
+/* La mise en page pour les images "Votre Commande" */
+
+@media screen and (max-width: 767px) {
+  .numbers {
+  justify-content: space-between;
+  margin-left: 0px;
+  margin-right: 0px;
+  }
+}
+  
