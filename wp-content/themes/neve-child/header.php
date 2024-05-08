@@ -12,7 +12,7 @@
 
 <header class="header">
     <a href="<?php echo home_url( '/' ); ?>">
-      <img class=logo src="<?php echo get_stylesheet_directory_uri(); ?>/img/Logo Planty.png" alt="Logo">
+      <img class=logo src="<?php echo get_stylesheet_directory_uri(); ?>/img/logo-planty.png" alt="Logo">
     </a> 
 
 	
